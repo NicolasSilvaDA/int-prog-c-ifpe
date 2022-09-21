@@ -1,17 +1,19 @@
 #include <stdio.h>
 
-void trocar(int num, int num2) {
-    int temp = num;
-    num = num2;
-    num2 = temp;
-    printf("%d e %d", num, num2);
+
+float conversorDolarToBRL(float quantiaDolar){
+    float cotacao;
+    printf("Insira a cotação da moeda: ");
+    scanf("%f", &cotacao);
+    return quantiaDolar * cotacao;
 }
 
 int main() {
-    int num = 5, num2 = 3;
-
-    printf("Troca de números - Antes: %d e %d || Depois: ", num, num2);
-    trocar(num, num2);
-
+    float quantiaEmDolar;
+    
+    printf("Digite o valor em dólares($): ");
+    scanf("%f", &quantiaEmDolar);
+    
+    printf("$%.2f = R$%.2f", quantiaEmDolar, conversorDolarToBRL(quantiaEmDolar));
     return 0;
 }
