@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-float conversorDolarToBRL(float quantiaDolar){
+float conversorDolarToBRL(float quantiaDolar) {
     float cotacao;
     printf("Insira a cotação da moeda: ");
     scanf("%f", &cotacao);
