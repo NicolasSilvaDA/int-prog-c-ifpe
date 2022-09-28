@@ -143,5 +143,6 @@ int main() {
     // printf("%f hectare", mSquaredToHect()); // Exercício 26
     // printf("Sum = %.2f", squaresSum()); // Exercício 28
     // printf("Average = %.2f", arithAverage()); // Exercício 29
-	return 0;
+    
+    return 0;
 }
