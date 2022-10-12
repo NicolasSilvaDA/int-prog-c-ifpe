@@ -132,7 +132,7 @@ float arithAverage() {
 }
 
 
-int main() {
+int main(int argc, char const *argv[]) {
     // printf("%.2f Km", milToKm()); // Exercício 12
     // printf("%.2f Rad", degToRad()); // Exercício 14
     // printf("%.2f cm", polToCm()); // Exercício 16

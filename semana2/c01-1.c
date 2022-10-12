@@ -122,7 +122,7 @@ float kilometersHToMetersS() {
   return mPerS;
 }
 
-int main() {
+int main(int argc, char const *argv[]) {
     // printf("%d", leitorIntPrint()); // Exercício 1
     // printf("%f", leitorRealPrint()); // Exercício 2
     // printf("%d", somaInt()); // Exercício 3
@@ -133,4 +133,6 @@ int main() {
     // printf("%.1f", kelvinToC()); // Exercício 8
     // printf("%.1f", celsiusToK()); // Exercício 9
     // printf("%.2f", kilometersHToMetersS()); // Exercício 10
+    
+    return 0;
 }
